@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&family=Vazirmatn:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Vazirmatn", sans-serif;
+
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: rgb(225, 225, 225);
+}
+
+main {
+    max-width: min(160ch, 100%);
+    margin: auto;
+    padding: 1rem;
+    min-height: 90svh;
+}
+
+
+p {
+    color: rgb(97, 97, 97);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    box-shadow: 0px 0px 2px rgb(179, 179, 179);
+
+    padding: 2rem;
+    background-color: white;
+
+
+
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+.rest-group {
+    box-shadow: 0 0 10px #c3c3c3;
+
+}
+
+
+
+
+
+.rest-group li a {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+}
+
+
+.th {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+
+}
+
+.th .sharecont {
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+    cursor: pointer;
+
+
+}
+
+.th .sharecont span {
+    font-size: 1.4rem;
+}
+
+
+
+h2 {
+    font-size: 1.2rem;
+    color: rgb(58, 58, 58);
+}
+
+
+.form>* {
+
+    padding: 0.4rem;
+
+}
+
+.titlemeta {
+    display: flex;
+    gap: 1rem;
+    margin-block: 1rem;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+}
+
+.metacont {
+    display: flex;
+    color: rgb(94, 94, 94);
+    gap: 0.3rem;
+}
+
+.strong {
+    width: 100%;
+}
+
+.strong p {
+    font-size: 0.87rem;
+    line-height: 1.6rem;
+}
+
+.metacont span {
+    font-size: 1.1rem;
+}
+
+nav {
+    box-shadow: 0px 0px 4px rgb(180, 180, 180);
+    background-color: white;
+
+}
+
+nav .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    max-width: min(160ch, 100%);
+    margin: auto;
+    padding: 1rem;
+}
+
+
+nav .nav .right .navicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav .middle {
+    display: flex;
+    justify-content: right;
+}
+
+nav .nav>* {
+    flex: 1;
+    text-align: center;
+}
+
+nav .nav .right {
+    display: flex;
+    gap: 1rem;
+    justify-content: left;
+}
+
+nav .nav .logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav .nav .logo a img {
+    max-width: 80px;
+    border-radius: 4px;
+}
+
+
+
+footer {
+    box-shadow: 0px 0px 4px rgb(180, 180, 180);
+    background-color: white;
+
+}
+
+.footer {
+    max-width: min(90ch, 100%);
+    margin: auto;
+    padding: 1rem;
+}
+
+
+
+
+
+
+.banner {
+    position: relative;
+    border-radius: 4px;
+    aspect-ratio: 16/9;
+    /* Maintains a 16:9 aspect ratio */
+    overflow: hidden;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 150px;
+
+}
+
+
+
+
+.banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+.csearchcont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    /* Make sure it's above the image */
+    width: 80%;
+    /* Optional: control size */
+    max-width: 600px;
+}
+
+.csearchcont .form {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent background */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.csearchcont input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.csearchcont button {
+    background: none;
+    border: none;
+    padding: 0 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #333;
+}
+
+
+.main {
+    display: flex;
+    gap: 1rem;
+}
+
+.main ul,
+.main .pss {
+    flex: 1;
+}
+
+
+
+.main .adside {
+    width: 160px;
+}
+
+.main .adside .adcont img {
+    width: 100%;
+    display: block;
+}
+
+
+@media only screen and (max-width: 960px) {
+
+    .adside {
+        display: none;
+    }
+}

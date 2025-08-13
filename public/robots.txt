@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://gate.ns0.ir/sitemap.php

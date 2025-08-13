@@ -1,0 +1,20 @@
+{
+    "app_name": "NS0",
+    "version": "1.0.0",
+    "database": {},
+    "crawler": {
+        "log": true,
+        "sources": "sources.json",
+        "timeout": 3,
+        "vacuum": true,
+        "vacuum_period": "-1 day"
+    },
+    "clusterer": {
+        "threshold": 0.9
+    },
+    "view": {
+        "max-limit": 10
+    },
+    "locale": "fa_IR",
+    "timezone": "Asia/Tehran"
+}
